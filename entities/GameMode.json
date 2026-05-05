@@ -1,0 +1,25 @@
+{
+  "name": "GameMode",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the game mode (e.g. Crystal PVP, Sword)"
+    },
+    "slug": {
+      "type": "string",
+      "description": "Short identifier for the mode"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the mode"
+    },
+    "order": {
+      "type": "number",
+      "description": "Display order"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
